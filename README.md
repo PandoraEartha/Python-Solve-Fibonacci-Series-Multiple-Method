@@ -31,22 +31,8 @@ And note that Binary Exponentiation method reauire numpy package.
 
 Recursion, Loop, Binary Exponentiation and optimized.
 
+<img width="396" alt="image" src="https://user-images.githubusercontent.com/98176983/231098145-2624c764-b92e-45c5-b781-1190b8c9a932.png">
 
-Recursion / Loop:
-
-$F(n)=F(n-1)+F(n-2)$
-
-Binary Exponentiation:
-
-$\left[ \begin{matrix} F(n)\\F(n-1) \end{matrix} \right]=\left[ \begin{matrix} 1&&1\\1&&0 \end{matrix} \right]^{n-2}\left[ \begin{matrix} 1\\1 \end{matrix} \right]=A^{n-2}\left[ \begin{matrix} 1\\1 \end{matrix} \right]$
-
-Binary Exponentiation optimized:
-
-$F(2n+1)=F^2(n+1)+F^2(n)\\$
-
-$F(2n)=F(n)\big[F(n+1)+F(n-1)\big]$
-
-$\left[ \begin{matrix} F(n)\\F(n-1) \end{matrix} \right]=\left[ \begin{matrix} 1&&1\\1&&0 \end{matrix} \right]^{n-2}\left[ \begin{matrix} 1\\1 \end{matrix} \right]=A^{n-2}\left[ \begin{matrix} 1\\1 \end{matrix} \right]$
 ***
 
 [算法详解(简体中文)](https://zhuanlan.zhihu.com/p/620719695)
