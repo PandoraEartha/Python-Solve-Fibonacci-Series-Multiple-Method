@@ -5,7 +5,7 @@ Use Python to solve any term of Fibonacci Series with multiple method
 
 [简体中文介绍](https://zhuanlan.zhihu.com/p/620719695)
 
-#Usage
+# Usage
 
 Download and extract the Source Code in Releases, that is all the code needed.
 
@@ -27,7 +27,7 @@ import binaryExponentiation
 
 And note that Binary Exponentiation method reauire numpy package.
 
-#Algorithm
+# Algorithm
 
 Recursion, Loop, Binary Exponentiation and optimized.
 
